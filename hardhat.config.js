@@ -1,8 +1,8 @@
 require("@nomiclabs/hardhat-waffle");
 
 
-const ALCHEMY_API_KEY = "l7dI0Klq2euD2SI3wM1FJ_B5C6ur9gQm";
-const PRIVATE_KEY = "4ff4c1f54ffc9172aca57bd22fff489c79d0a5ed42e691f84926e9e93a916ba5";
+const ALCHEMY_API_KEY = "abc";
+const PRIVATE_KEY = "abc";
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -24,7 +24,7 @@ module.exports = {
   solidity: "0.7.5",
   networks: {
     rinkeby: {
-      url: `https://eth-rinkeby.alchemyapi.io/v2/l7dI0Klq2euD2SI3wM1FJ_B5C6ur9gQm`,
+      url: `https://eth-rinkeby.alchemyapi.io/v2/abc`,
       accounts: [`${PRIVATE_KEY}`]
     }
   }
